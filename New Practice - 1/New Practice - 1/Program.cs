@@ -218,3 +218,43 @@
 //    }
 //    Console.WriteLine();
 //}
+
+
+
+int length = 6;
+
+for (int i = 1; i <= length; i++)
+{
+    for (int j = 1; j <= (length + 1) - i; j++)
+    {
+        Console.Write(j);
+    }
+    //for (int k = 1; k < i; k++)
+    //{
+    //    Console.Write(" ");
+    //}
+    //for (int l = 3; l <= i; l++)
+    //{
+    //    Console.Write(" ");
+    //}
+
+    //for (int m = (length + 1) - i; m >= 1; m--)
+    //{
+    //    if (m == length)
+    //    {
+    //        continue;
+    //    }
+    //    Console.Write(m);
+    //}
+
+    Console.WriteLine();
+}
+
+
+
+
+
+
+
+
+
