@@ -345,7 +345,7 @@
 
 
 
-// 7th Picture
+//7th Picture
 
 //int len = 5;
 
@@ -370,7 +370,7 @@
 
 //    for (int j = 1; j <= len - i; j++)
 //    {
-//        Console.Write(" "); 
+//        Console.Write(" ");
 //    }
 
 //    for (int j = (len + 1) - i; j >= 1; j--)
@@ -418,7 +418,7 @@
 //    {
 //        Console.Write("*");
 //    }
-//    for (int j = 1; j <= i - 1; j++) 
+//    for (int j = 1; j <= i - 1; j++)
 //    {
 //        Console.Write(" ");
 //    }
@@ -447,4 +447,137 @@
 
 
 //    Console.WriteLine();
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Practice question
+
+
+//int h = 4;
+
+//for (int i = 1; i <= h; i++)
+//{
+//    for (int j = 1; j <= h; j++)
+//    {
+
+//        for (int k = 1; k <= (h + 1) - i; k++)
+//        {
+//            Console.Write(j);
+//        }
+//    }
+//    Console.WriteLine();
+//}
+
+
+
+
+
+
+//int o = 5;
+//for (int i = 1; i <= o; i++)
+//{
+//    for (int j = i; j >= 1; j--)
+//    { 
+//        if(j == 1)
+//        {
+//            Console.Write("*");
+//        }
+//        else
+//        {
+//            Console.Write(" ");
+//        }
+//    }
+//    for (int j = o - i; j >= 1; j--)
+//    {
+//        Console.Write(" ");
+//    }
+//    for (int j = o - i; j >= 1; j--)
+//    {
+//        if (j == 1)
+//        {
+//            Console.Write("*");
+//        }
+//        else
+//        {
+//            Console.Write(" ");
+//        }
+//    }
+//    Console.WriteLine();
+//}
+//for (int i = 1; i <= o; i++)
+//{
+//    for (int j = o - i; j >= 1; j--)
+//    {
+//        if (j == 1)
+//        {
+//            Console.Write("*");
+//        }
+//        else
+//        {
+//            Console.Write(" ");
+//        }
+//    }
+//    for (int j = i; j >= 1; j--)
+//    {
+//        if (j == 5)
+//        {
+//            break;
+//        }
+//        Console.Write(" ");
+//    }
+//    for (int j = i; j >= 1; j--)
+//    {
+//        if (j == 5)
+//        {
+//            break;
+//        }
+//        if (j == 1)
+//        {
+//            Console.Write("*");
+//        }
+//        else
+//        {
+//            Console.Write(" ");
+//        }
+//    }
+//    Console.WriteLine();
+//}
+
+
+
+
+
+
+
+
+//Console.WriteLine("Enter How many time it runs: ");
+//int run = int.Parse(Console.ReadLine());
+
+//int i = 0;
+//int j = 1;
+//int k = 1;
+
+//Console.WriteLine();
+
+//while (1 <= run)
+//{
+//    Console.WriteLine(k);
+
+//    k = i + j;
+
+//    i = j;
+//    j = k;
+   
+//    run--;
 //}
