@@ -368,22 +368,17 @@
 
 
 
-static bool IsEven(int x)
+static int Multiply(int a, int b)
 {
-    if (x % 2 == 0)
-    {
-        return true;
-    }
-    else
-    {
-        return false;
-    }
+    return a * b;
 }
 
-bool result = IsEven(10);
-bool result2 = IsEven(7);
+static int CalculateSquare(int number)
+{
+    return Multiply(number, number);
+}
 
+int result = CalculateSquare(5);
 Console.WriteLine(result);
-Console.WriteLine(result2);
 
 Console.ReadLine();
