@@ -368,17 +368,17 @@
 
 
 
-static int Multiply(int a, int b)
-{
-    return a * b;
-}
+//static int Multiply(int a, int b)
+//{
+//    return a * b;
+//}
 
-static int CalculateSquare(int number)
-{
-    return Multiply(number, number);
-}
+//static int CalculateSquare(int number)
+//{
+//    return Multiply(number, number);
+//}
 
-int result = CalculateSquare(5);
-Console.WriteLine(result);
+//int result = CalculateSquare(5);
+//Console.WriteLine(result);
 
-Console.ReadLine();
+//Console.ReadLine();
